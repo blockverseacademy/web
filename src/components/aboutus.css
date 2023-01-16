@@ -1,0 +1,119 @@
+.center-wrap .single-pricing-card {
+    background-color: var(--optional-color);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .center-wrap .single-pricing-card h3 {
+    /* background: radial-gradient(
+      circle,
+      #a66bff,
+      #c666ef,
+      #dd62df,
+      #ee61cf,
+      #fb64bf
+    ); */
+    color: black;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 20px
+  }
+  
+  .center-wrap .single-pricing-card .pricing-list {
+    padding: 10;
+    margin-top: 25px;
+    margin-bottom: 0;
+    
+  }
+  .center-wrap .single-pricing-card .pricing-list li {
+    list-style-type: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding: 20px;
+    
+  }
+  
+  .cta-info .pricing-list li {
+    list-style-type: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-left: 35px;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: start;
+  }
+  
+  .icofont-check{
+    position: absolute;
+    left: 0;
+    top: 34%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 50px;
+    text-align: center;
+    font-size: var(--font-size);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    color: #ddd;
+    
+  }
+  .icofont-check:hover {
+    background-color: var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
+    color: var(--black-color) !important;
+  }
+  
+  
+
+
+ .hompage-slides-wrapper1 {
+  margin-top: 18%;
+ }
+ 
+
+ .cta-area {
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0;
+}
+.cta-bg-img {
+    background-image: url(../assets/images/cta-bg-img.webp);
+}
+.cta-info {
+
+    padding: 20px;
+
+
+}
+.cta-info h2 {
+	font-weight: 600;
+	color: #272727;
+	font-size: 32px;
+    line-height: 36px;
+}
+.cta-info p {
+	margin: 12px 0 40px;
+	font-size: 17px;
+	color: #606060;
+}
+
+.circle {
+  border-radius: 10%;
+  box-shadow: 1px 1px grey;
+}

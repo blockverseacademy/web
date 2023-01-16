@@ -1,0 +1,40 @@
+
+.blog-details {
+    margin-top: 22px!important;
+}
+.blog-details video,
+.blog-details img {
+    height: 400px!important;
+    overflow: hidden!important;
+    width: 100%!important;
+}
+
+.comments-section {
+    margin-top: 10px;
+}
+.comments-section .img {
+    width: 100%;
+}
+.comments-section .img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-top: 5px;
+    padding: 0px !important;
+}
+
+.comments-section h3 {
+    font-size: 17px;
+    color: #000000;
+}
+.comments-section small {
+    font-size: 12px;
+    font-style: italic;
+    color: #000000;
+    margin-right: 10px;
+}
+.comments-section p {
+    font-size: 14px;
+    text-align: justify;
+}

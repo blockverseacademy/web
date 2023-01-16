@@ -1,0 +1,114 @@
+.bg-dark {
+    background: #002147 !important;
+    padding: 50px 0;
+  }
+  
+  .site-heading {
+    margin-bottom: 60px;
+    margin-top: -5px;
+    overflow: hidden;
+  }
+  
+  .bg-dark .site-heading h2 {
+    color: #ffffff;
+  }
+  
+  .site-heading h2 {
+    display: inline-block;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .site-heading h2::before {
+    background: #ffb606 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+    width: 40px;
+    z-index: 1;
+  }
+  
+  .site-heading h2::after {
+    background: #ffb606 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: 5px;
+    position: absolute;
+    width: 40px;
+  }
+  
+  .bg-dark .site-heading p {
+    color: #cccccc;
+  }
+  
+  .row:before {
+    display: table;
+    content: " ";
+  }
+  
+  .carousel-shadow .owl-stage-outer {
+    margin: -15px -15px 0;
+    padding: 15px;
+  }
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+  }
+  
+  .item {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: -1px 3px 10px 0 rgb(0 0 0 / 6%);
+    -o-box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: -1px 3px 10px 0 rgb(0 0 0 / 6%);
+    overflow: hidden;
+    padding: 15px;
+    margin: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .item img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+   
+  }
+  
+  
+  .item p {
+    position: relative;
+    padding-top: 0px;
+    padding-left: 10px;
+    z-index: 1;
+    color: white;
+  }
+  
+  .item h4 {
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+    color: white;
+  }
+  .item span {
+    color: #ffb606;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+  .item .center-wrap {
+    
+    padding: 10px;
+  }

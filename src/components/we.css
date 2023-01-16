@@ -1,0 +1,177 @@
+#whatwedo p {
+   padding-bottom: 20px;
+   margin-right: 10%;
+   justify-content: center;
+   display: flex;
+
+}
+
+.colclass {
+  display:flex;
+  justify-content:center;
+  margin-left:20%;
+  padding-top:5%;
+  margin-right: 15%
+}
+
+.section-title-bg {
+    color: #c1c3cd !important;
+    font-size: 100px;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+}
+
+
+.single-banner-boxes {
+    
+    /* border: 1px dashed #687b6f; */
+    position: relative;
+    border-radius: 15px;
+   
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 1;
+    overflow: hidden;
+    opacity: 1;
+    height: 258px;
+    width: 282px;
+    margin-bottom: 50px;
+}
+.single-banner-boxes::before {
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+
+.single-banner-boxes::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    margin: -1px;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-banner-boxes:hover {
+    
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+  }
+
+
+  .hero-text {
+    font-size: 29px;
+   
+    font-weight: 600;
+    display: inline-block;
+    
+}
+
+.frost {
+    margin-left: 5%;
+    margin-right: 15%; 
+    margin-top: 5%;
+    margin-bottom: 10%;
+   
+    border-radius: 15px 15px 15px 15px;
+    /* height: 610px; */
+    opacity: 1;
+}
+
+.frost .title {
+    padding-top: 5%;
+    font-size: 50px;
+    padding-left: 1%;
+    line-height: 66px;
+}
+
+.strokewhatwedo {
+    /* -webkit-text-strokewhatwedo-width: 3px;
+    -webkit-text-strokewhatwedo-color: #f85e2e; */
+    margin-top: 12px;
+   
+    content: " ";
+    display: block;
+    /* height: 17%; */
+    text-align: center;
+    width: 100%;
+    /* margin-left: -3px;
+    margin-right: -3px; */
+   
+    /* background: #f85e2e; */
+    /* transform: rotate(2deg); */
+    /* top: -1px;
+    left: -1px; */
+    /* border-radius: 20% 25% 20% 24%; */
+    /* padding: 10px 3px 3px 10px; */
+    
+}
+
+.single-slider-item_whatwedo{
+
+    background-color: #71597f;
+    /* background-color: #fff; */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    font-size: 15px;
+    color: #fff;
+    height: 1200px;
+    background-size: contain;
+}
+
+
+/*--------------------------------------------------------------
+# Unbeatable One
+--------------------------------------------------------------*/
+.unbeatable-one {
+    position: relative;
+    display: block;
+  
+   
+    z-index: 1;
+  }
+  
+  
+  .unbeatable-one__bg:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+   
+  }
+  
+  .unbeatable-one .container {
+    max-width: 1895px;
+    padding: 0 50px;
+  }
+  
+  .unbeatable-one__inner {
+    position: relative;
+    display: block;
+   
+   
+  }
+  
+  

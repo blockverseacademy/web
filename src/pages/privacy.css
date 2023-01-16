@@ -1,0 +1,17 @@
+li {
+    list-style-type: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-left: 35px;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: start;
+    
+  }
+
+  span, p {
+    color: black;
+  }
+ 
