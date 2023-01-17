@@ -69,8 +69,7 @@ const Banner = () => {
     function displayWindowSize() {
         // Get width and height of the window excluding scrollbars
         var w = document.documentElement.clientWidth;
-        var h = document.documentElement.clientHeight;
-        console.log(w)
+        
         // Display result inside a div element
         localStorage.removeItem("ScreenWidth");
         localStorage.setItem("ScreenWidth", w);
@@ -82,7 +81,7 @@ const Banner = () => {
             <LazyLoadComponent id={index}>
                 <div id="bgclass" className={`single-slider-item slide-bg-${i}`} key={index}>
 
-                    {i == 3 && (
+                    {i === 3 && (
                         <div className="diplay-table">
                             <div className="display-table-cell">
                                 <div className="row" style={{ paddingLeft: "40px" }}>
@@ -96,7 +95,7 @@ const Banner = () => {
                                             }
                                             style={{ margin: "20px" }}
                                         >
-                                            {bannerone.TopTitleScreen1} <strong style={{ color: 'black', color: 'black', WebkitTextFillColor: 'white', WebkitTextStrokeWidth: '1px', WebkitTextStrokeColor: 'black' }}>{bannerone.TitleScreen1}</strong>   {bannerone.ContentScreen1} {bannerone.ContentScreenmore1}
+                                            {bannerone.TopTitleScreen1} <strong style={{ color: 'black',  WebkitTextFillColor: 'white', WebkitTextStrokeWidth: '1px', WebkitTextStrokeColor: 'black' }}>{bannerone.TitleScreen1}</strong>   {bannerone.ContentScreen1} {bannerone.ContentScreenmore1}
                                         </h1>
 
 
@@ -114,7 +113,7 @@ const Banner = () => {
                         </div>
                     )}
 
-                    {i == 1 && (
+                    {i === 1 && (
                         <div className="diplay-table">
                             <div className="display-table-cell">
                                 <div className="row" style={{ paddingLeft: "40px" }}>
@@ -164,7 +163,7 @@ const Banner = () => {
                         </div>
                     )}
 
-                    {i == 2 && (
+                    {i === 2 && (
                         <div className="diplay-table">
                             <div className="display-table-cell">
                                 <div className="row" style={{ paddingLeft: "40px" }}>
@@ -214,7 +213,7 @@ const Banner = () => {
                         </div>
                     )}
 
-                    {i == 8 && (
+                    {i === 8 && (
                         <div className="diplay-table">
                             <div className="display-table-cell1">
                                 <div className="row" style={{ paddingLeft: "40px", marginTop: "8%" }}>
@@ -375,9 +374,9 @@ const Banner = () => {
             <div id="home" className="hompage-slides-wrapper">
 
 
-                {/* <Carousel slide="true" controls="false" indicators="false" touch="true" nextIcon="" nextLabel="" prevIcon="" prevLabel=""> */}
+                <Carousel slide="true" controls="false" indicators="false" touch="true" nextIcon="" nextLabel="" prevIcon="" prevLabel="">
 
-                    {/* <Carousel.Item interval={3000}>
+                    <Carousel.Item interval={3000}>
                         {BannerDataArr(3)}
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
@@ -385,16 +384,16 @@ const Banner = () => {
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
                         {BannerDataArr(2)}
-                    </Carousel.Item> */}
-                    {/* <Carousel.Item interval={3000}> */}
+                    </Carousel.Item>
+                    <Carousel.Item interval={3000}>
                         {BannerDataArr(8)}
-                    {/* </Carousel.Item> */}
+                    </Carousel.Item>
 
 
 
 
 
-                {/* </Carousel> */}
+                </Carousel>
 
 
 
